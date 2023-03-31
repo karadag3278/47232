@@ -31,6 +31,14 @@
     <version.feel-scala>1.15.3</version.feel-scala>
     <plugin.version.javadoc>3.0.1</plugin.version.javadoc>
   </properties>
+  
+  
+  <modules>
+    <module>bom</module>
+    <module>consumer</module>
+    <module>consumer-parent</module>
+    <module>consumer-grandparent</module>
+  </modules>
 
   <build>
     <plugins>
