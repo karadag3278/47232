@@ -16,11 +16,6 @@
     <relativePath />
   </parent>
   
-  <description>
-    This pom defines the modules that make up the build.
-    The parent pom for all Camunda Platform projects can be found in the parent directory relative to this file.
-  </description>
-
   <properties>
     <license.includeTransitiveDependencies>false</license.includeTransitiveDependencies>
 
