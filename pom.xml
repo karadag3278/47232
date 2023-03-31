@@ -15,5 +15,7 @@
   <modules>
     <module>bom</module>
     <module>consumer</module>
+    <module>consumer-parent</module>
+    <module>consumer-grandparent</module>
   </modules>
 </project>
