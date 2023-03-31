@@ -12,8 +12,26 @@
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <java.version>1.8</java.version>
   </properties>
+  <!--
+  Add in the below snippet and comment out the profile declaration to make
+  the detection of the dependency version succeed.
+  
   <modules>
     <module>bom</module>
     <module>consumer</module>
   </modules>
+  -->
+  
+  <profiles>
+    <profile>
+      <id>distro</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <modules>
+        <module>bom</module>
+        <module>consumer</module>
+      </modules>
+    </profile>
+  </profiles>
 </project>
